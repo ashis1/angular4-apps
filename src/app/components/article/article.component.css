@@ -1,0 +1,20 @@
+.a{
+  text-decoration: none;
+}
+.a:hover{
+  text-decoration: none;
+}
+
+.a2{
+  color: black;
+}
+
+.a2:hover{
+color:gray;
+}
+
+p{
+  color:rgb(128, 128, 128);
+}
+
+

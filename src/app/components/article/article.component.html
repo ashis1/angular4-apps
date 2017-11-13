@@ -1,0 +1,19 @@
+<form  class="">
+
+  <div class="panel-body col-md-6">
+     <div class="col-md-4" style="background-color:ghostwhite;text-align:center;">
+        <h2>{{article.vote}}</h2>
+        <h3>Points</h3>
+     </div>
+    <div class="col-md-8" style="background-color:rgb(255, 255, 255)">
+       <h3><a class="a a2" href="{{article.link}}">{{article.title}}</a></h3>
+       <p>( {{article.domain()}} )</p>
+       <p>
+        <a href (click)="voteUp()" class="btn btn-link a"><i class="glyphicon glyphicon-triangle-top"></i> upvote</a>
+        <a href (click)="voteDown()" class="btn btn-link a"><i class="glyphicon glyphicon-triangle-bottom"></i> downvote</a>
+      </p>
+    </div>
+  </div>
+
+
+</form>
